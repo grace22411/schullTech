@@ -1,0 +1,1035 @@
+/* line 3, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 11, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.modal_content {
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: none;
+  width: 100%;
+  float: right;
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95));
+  z-index: 9999;
+  animation: scale_in .2s linear 1; }
+  /* line 23, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .modal_content .close {
+    color: #f2f2f2 !important;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    margin: 15px 15px 0 0; }
+  /* line 30, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .modal_content ul {
+    text-align: center;
+    color: #f2f2f2;
+    margin: auto;
+    margin: 100px auto 0 auto;
+    width: 22%;
+    height: 70px; }
+    /* line 39, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .modal_content ul a {
+      text-decoration: none; }
+    /* line 42, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .modal_content ul li {
+      list-style-type: none;
+      font-size: 40px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      color: #fff;
+      text-align: center;
+      transition: .2s ease-in-out;
+      margin-left: 0px;
+      padding-top: 10px;
+      padding-left: 0;
+      display: list-item; }
+  /* line 57, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .modal_content li:hover {
+    color: #20419b;
+    text-decoration: none; }
+  @media screen and (max-width: 600px) {
+    /* line 11, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .modal_content {
+      width: 100%; }
+      /* line 63, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .modal_content ul {
+        width: 70%; }
+        /* line 65, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .modal_content ul li {
+          font-size: 25px;
+          width: 100%; } }
+
+/* line 74, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.section1, .section2, .section22 {
+  width: 100%;
+  background-image: url(images/nik-macmillan-280300-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 670px; }
+  /* line 80, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .section1 nav, .section2 nav, .section22 nav, .section1 nav .container-fluid, .section2 nav .container-fluid, .section22 nav .container-fluid {
+    background-color: transparent !important;
+    box-shadow: none; }
+    /* line 83, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section1 nav .container-fluid, .section2 nav .container-fluid, .section22 nav .container-fluid {
+      padding: 50px 0; }
+      /* line 86, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 nav .container-fluid .row, .section2 nav .container-fluid .row, .section22 nav .container-fluid .row {
+        margin: 0 0 !important; }
+      /* line 89, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 nav .container-fluid .navbar-brand, .section2 nav .container-fluid .navbar-brand, .section22 nav .container-fluid .navbar-brand {
+        float: left; }
+        /* line 91, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar-brand img, .section2 nav .container-fluid .navbar-brand img, .section22 nav .container-fluid .navbar-brand img {
+          height: 50px;
+          width: 100px; }
+      /* line 96, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 nav .container-fluid .navbar_contain, .section2 nav .container-fluid .navbar_contain, .section22 nav .container-fluid .navbar_contain {
+        width: 55px;
+        display: none;
+        height: 50px;
+        float: right;
+        margin-top: -42px;
+        cursor: pointer; }
+        /* line 103, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar_contain .navbar_1, .section2 nav .container-fluid .navbar_contain .navbar_1, .section22 nav .container-fluid .navbar_contain .navbar_1, .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_1, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_1, .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 nav .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .navbar_contain .navbar_2, .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .navbar_contain .navbar_2, .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 nav .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .navbar_contain .navbar_3, .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .navbar_contain .navbar_3, .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 nav .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section1 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 nav .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section2 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 .section2 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 nav .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 nav .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section2 .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section2 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section2 .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section22 .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section22 .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 .section22 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3 {
+          width: 25px;
+          height: 2px;
+          margin: auto;
+          background-color: #fff; }
+        /* line 109, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar_contain .navbar_2, .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 nav .container-fluid .navbar_contain .navbar_2, .section1 nav .container-fluid .navbar_contain .navbar_3, .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 nav .container-fluid .navbar_contain .navbar_3 {
+          margin-top: 5px; }
+      /* line 118, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 nav .container-fluid ul, .section2 nav .container-fluid ul, .section22 nav .container-fluid ul {
+        margin: 0;
+        padding-top: 0;
+        float: right; }
+        /* line 122, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid ul li, .section2 nav .container-fluid ul li, .section22 nav .container-fluid ul li {
+          text-transform: uppercase;
+          list-style: none;
+          padding-top: 0;
+          float: left;
+          font-weight: 500;
+          padding-left: 8px; }
+          /* line 130, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid ul li a, .section2 nav .container-fluid ul li a, .section22 nav .container-fluid ul li a {
+            color: #fff;
+            font-weight: 500;
+            transition: .3s ease-in-out;
+            font-size: 13px; }
+          /* line 136, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid ul li a:hover, .section2 nav .container-fluid ul li a:hover, .section22 nav .container-fluid ul li a:hover {
+            color: #20419b; }
+          /* line 139, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid ul li button, .section2 nav .container-fluid ul li button, .section22 nav .container-fluid ul li button {
+            height: 40px;
+            width: 150px;
+            background-color: #20419b;
+            color: #fff;
+            padding: 0;
+            transition: .2s ease-in-out;
+            margin-top: -10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 13px;
+            font-weight: 500;
+            text-align: center;
+            text-transform: uppercase; }
+          /* line 154, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid ul li button:hover, .section2 nav .container-fluid ul li button:hover, .section22 nav .container-fluid ul li button:hover {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff; }
+      @media screen and (max-width: 600px) {
+        /* line 83, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid, .section2 nav .container-fluid, .section22 nav .container-fluid {
+          padding-left: 20px;
+          padding-right: 20px; }
+          /* line 166, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid row, .section2 nav .container-fluid row, .section22 nav .container-fluid row {
+            padding: 0 0; }
+          /* line 169, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .navbar_contain, .section2 nav .container-fluid .navbar_contain, .section22 nav .container-fluid .navbar_contain {
+            display: block; }
+          /* line 172, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .navbar-collapse, .section2 nav .container-fluid .navbar-collapse, .section22 nav .container-fluid .navbar-collapse {
+            background-color: #20419b; }
+            /* line 174, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+            .section1 nav .container-fluid .navbar-collapse ul, .section2 nav .container-fluid .navbar-collapse ul, .section22 nav .container-fluid .navbar-collapse ul {
+              color: #fff !important; }
+              /* line 176, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+              .section1 nav .container-fluid .navbar-collapse ul li, .section2 nav .container-fluid .navbar-collapse ul li, .section22 nav .container-fluid .navbar-collapse ul li {
+                color: #fff !important; }
+                /* line 178, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+                .section1 nav .container-fluid .navbar-collapse ul li a, .section2 nav .container-fluid .navbar-collapse ul li a, .section22 nav .container-fluid .navbar-collapse ul li a {
+                  color: #fff !important; }
+                  /* line 180, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+                  .section1 nav .container-fluid .navbar-collapse ul li a button, .section2 nav .container-fluid .navbar-collapse ul li a button, .section22 nav .container-fluid .navbar-collapse ul li a button {
+                    color: #fff;
+                    border: 1px solid #fff; }
+          /* line 188, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .col-sm-3, .section2 nav .container-fluid .col-sm-3, .section22 nav .container-fluid .col-sm-3 {
+            width: 35%;
+            float: left; }
+          /* line 192, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid ul, .section2 nav .container-fluid ul, .section22 nav .container-fluid ul {
+            display: none; }
+          /* line 195, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .navbar-toggler-icon, .section2 nav .container-fluid .navbar-toggler-icon, .section22 nav .container-fluid .navbar-toggler-icon {
+            display: block; }
+          /* line 198, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .navbar-brand, .section2 nav .container-fluid .navbar-brand, .section22 nav .container-fluid .navbar-brand {
+            z-index: -9999; }
+          /* line 201, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 nav .container-fluid .navbar-toggler, .section2 nav .container-fluid .navbar-toggler, .section22 nav .container-fluid .navbar-toggler {
+            float: right;
+            margin-top: -50px;
+            padding-top: 0;
+            z-index: 9999;
+            filter: grayscale(1%); } }
+      @media screen and (min-width: 600px) and (max-width: 974px) {
+        /* line 210, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid ul, .section2 nav .container-fluid ul, .section22 nav .container-fluid ul {
+          display: none; }
+        /* line 213, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar-toggler-icon, .section2 nav .container-fluid .navbar-toggler-icon, .section22 nav .container-fluid .navbar-toggler-icon {
+          display: block; }
+        /* line 216, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar-brand, .section2 nav .container-fluid .navbar-brand, .section22 nav .container-fluid .navbar-brand {
+          z-index: -9999; }
+        /* line 219, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 nav .container-fluid .navbar-toggler, .section2 nav .container-fluid .navbar-toggler, .section22 nav .container-fluid .navbar-toggler {
+          float: right;
+          margin-top: -50px;
+          padding-top: 0;
+          z-index: 9999; } }
+  /* line 229, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .section1 .caption, .section2 .caption, .section22 .caption {
+    padding: 100px 0; }
+    /* line 231, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section1 .caption .col, .section2 .caption .col, .section22 .caption .col {
+      padding: 0; }
+    /* line 234, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section1 .caption .row, .section2 .caption .row, .section22 .caption .row {
+      margin: 0 0 !important; }
+    /* line 237, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section1 .caption .card, .section2 .caption .card, .section22 .caption .card {
+      box-shadow: none;
+      padding-left: 0;
+      color: #fff;
+      border: none;
+      background-color: transparent; }
+      /* line 243, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 .caption .card .card-content, .section2 .caption .card .card-content, .section22 .caption .card .card-content {
+        padding-left: 0;
+        color: #fff; }
+        /* line 246, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 .caption .card .card-content .card-title, .section2 .caption .card .card-content .card-title, .section22 .caption .card .card-content .card-title {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 1.2em;
+          margin-bottom: 15px; }
+        /* line 252, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 .caption .card .card-content p, .section2 .caption .card .card-content p, .section22 .caption .card .card-content p {
+          font-size: 13px;
+          font-weight: 500;
+          padding-right: 100px; }
+      /* line 258, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 .caption .card .card-action, .section2 .caption .card .card-action, .section22 .caption .card .card-action {
+        border-top: none;
+        padding-left: 0; }
+        /* line 261, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 .caption .card .card-action a, .section2 .caption .card .card-action a, .section22 .caption .card .card-action a {
+          margin-left: 0;
+          padding-left: 0; }
+          /* line 264, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 .caption .card .card-action a button, .section2 .caption .card .card-action a button, .section22 .caption .card .card-action a button {
+            background-color: #20419b;
+            border: none;
+            color: #fff;
+            transition: .2s ease-in-out;
+            border-radius: 5px;
+            width: 150px;
+            font-weight: 500;
+            padding: 10px; }
+          /* line 275, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .section1 .caption .card .card-action a button:hover, .section2 .caption .card .card-action a button:hover, .section22 .caption .card .card-action a button:hover {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff; }
+    @media screen and (max-width: 600px) {
+      /* line 229, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 .caption, .section2 .caption, .section22 .caption {
+        padding: 20px 0; }
+        /* line 287, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 .caption .card .card-content .card-title, .section2 .caption .card .card-content .card-title, .section22 .caption .card .card-content .card-title {
+          font-size: 20px;
+          padding-right: 30px; }
+        /* line 291, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section1 .caption .card .card-content p, .section2 .caption .card .card-content p, .section22 .caption .card .card-content p {
+          margin-top: 10px;
+          padding-right: 50px; } }
+    @media screen and (max-width: 600px) {
+      /* line 229, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section1 .caption, .section2 .caption, .section22 .caption {
+        padding: 0 30px; } }
+
+/* line 305, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.services, .services2, .industry {
+  padding: 50px 0; }
+  /* line 307, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services h2, .services2 h2, .industry h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+    display: block; }
+  /* line 314, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services h2:after, .services2 h2:after, .industry h2:after {
+    height: 1px;
+    width: 8%;
+    margin: 17px auto 0 auto;
+    content: "";
+    display: block;
+    background-color: #333; }
+  /* line 322, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services .container-fluid, .services2 .container-fluid, .industry .container-fluid {
+    padding-left: 0 !important; }
+  /* line 325, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services .first, .services2 .first, .industry .first, .services .third, .services2 .third, .industry .third, .services .process .second, .process .services .second, .services2 .process .second, .process .services2 .second, .industry .process .second, .process .industry .second {
+    margin-left: 0 !important; }
+    /* line 327, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first img, .services2 .first img, .industry .first img, .services .third img, .services2 .third img, .industry .third img, .services .process .second img, .process .services .second img, .services2 .process .second img, .process .services2 .second img, .industry .process .second img, .process .industry .second img {
+      height: 200px;
+      width: 200px;
+      float: right; }
+    /* line 334, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first .card-content .card-title, .services2 .first .card-content .card-title, .industry .first .card-content .card-title, .services .third .card-content .card-title, .services2 .third .card-content .card-title, .industry .third .card-content .card-title, .services .process .second .card-content .card-title, .process .services .second .card-content .card-title, .services2 .process .second .card-content .card-title, .process .services2 .second .card-content .card-title, .industry .process .second .card-content .card-title, .process .industry .second .card-content .card-title {
+      color: #20419b;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1em; }
+    /* line 340, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first .card-content p, .services2 .first .card-content p, .industry .first .card-content p, .services .third .card-content p, .services2 .third .card-content p, .industry .third .card-content p, .services .process .second .card-content p, .process .services .second .card-content p, .services2 .process .second .card-content p, .process .services2 .second .card-content p, .industry .process .second .card-content p, .process .industry .second .card-content p {
+      font-size: 13px;
+      font-weight: 500;
+      margin-top: 15px; }
+    /* line 348, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first .card-action a, .services2 .first .card-action a, .industry .first .card-action a, .services .third .card-action a, .services2 .third .card-action a, .industry .third .card-action a, .services .process .second .card-action a, .process .services .second .card-action a, .services2 .process .second .card-action a, .process .services2 .second .card-action a, .industry .process .second .card-action a, .process .industry .second .card-action a {
+      color: #20419b;
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: 500; }
+  /* line 356, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services .second, .services2 .second, .industry .second {
+    margin-top: 30px;
+    padding: 60px 0;
+    background-color: #eee; }
+    /* line 363, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second img, .services2 .second img, .industry .second img {
+      height: 200px;
+      width: 200px;
+      float: right; }
+    /* line 370, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second .card-content .card-title, .services2 .second .card-content .card-title, .industry .second .card-content .card-title {
+      color: #20419b;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1em; }
+    /* line 376, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second .card-content p, .services2 .second .card-content p, .industry .second .card-content p {
+      font-size: 13px;
+      font-weight: 500;
+      margin-top: 15px; }
+    /* line 384, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second .card-action a, .services2 .second .card-action a, .industry .second .card-action a {
+      color: #20419b;
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: 500; }
+    /* line 392, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second img, .services2 .second img, .industry .second img {
+      float: left; }
+    /* line 395, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second .card-content, .services2 .second .card-content, .industry .second .card-content {
+      padding-right: 25px; }
+  /* line 399, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services .third, .services2 .third, .industry .third {
+    margin: 40px 0; }
+    /* line 402, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .third .card-content, .services2 .third .card-content, .industry .third .card-content {
+      padding-right: 30px; }
+  @media screen and (max-width: 600px) {
+    /* line 407, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services h2, .services2 h2, .industry h2 {
+      font-size: 25px; }
+    /* line 410, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services h2:after, .services2 h2:after, .industry h2:after {
+      width: 15%; }
+    /* line 414, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first img, .services2 .first img, .industry .first img, .services .third img, .services2 .third img, .industry .third img, .services .process .second img, .process .services .second img, .services2 .process .second img, .process .services2 .second img, .industry .process .second img, .process .industry .second img {
+      float: none;
+      height: 150px;
+      width: 150px; }
+    /* line 420, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .first .card-content, .services2 .first .card-content, .industry .first .card-content, .services .third .card-content, .services2 .third .card-content, .industry .third .card-content, .services .process .second .card-content, .process .services .second .card-content, .services2 .process .second .card-content, .process .services2 .second .card-content, .industry .process .second .card-content, .process .industry .second .card-content {
+      margin-top: 30px; }
+    /* line 424, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services .second, .services2 .second, .industry .second {
+      padding: 60px 10px; }
+      /* line 426, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .services .second img, .services2 .second img, .industry .second img {
+        height: 150px;
+        width: 150px; } }
+
+/* line 433, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.partner {
+  height: 430px;
+  margin-top: 40px;
+  text-align: center; }
+  /* line 438, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner h2 {
+    text-align: center;
+    color: #333; }
+  /* line 442, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner h2:after {
+    height: 1px;
+    width: 10%;
+    margin: 17px auto 0 auto;
+    content: "";
+    display: block;
+    background-color: #333; }
+  /* line 450, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner img {
+    margin-top: 50px; }
+  /* line 453, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-one {
+    width: 101px;
+    height: 51px; }
+  /* line 457, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-two {
+    width: 120px;
+    height: 53px; }
+  /* line 461, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-three, .partner .partner-six {
+    width: 62px;
+    height: 62px; }
+  /* line 465, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-four {
+    width: 102px;
+    height: 38px; }
+  /* line 469, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-five {
+    width: 81px;
+    height: 50px; }
+  /* line 473, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-seven {
+    width: 57px;
+    height: 57px; }
+  /* line 477, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .partner .partner-new {
+    height: 35px;
+    width: 160px; }
+  @media screen and (max-width: 600px) {
+    /* line 433, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .partner {
+      padding: 0 20px;
+      height: auto;
+      margin-bottom: 60px; }
+      /* line 485, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .partner h2 {
+        font-size: 25px; }
+      /* line 488, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .partner h2:after {
+        width: 15%; } }
+  @media screen and (max-width: 600px) {
+    /* line 433, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .partner {
+      padding: 0 20px; } }
+
+/* line 496, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.form, .contact {
+  text-align: center;
+  background-color: #20419b;
+  padding: 70px 0; }
+  /* line 501, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .form h2, .contact h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px; }
+  /* line 506, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .form h2:after, .contact h2:after {
+    height: 1px;
+    width: 7%;
+    margin: 17px auto 0 auto;
+    content: "";
+    display: block;
+    background-color: #fff; }
+  /* line 515, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .form .form-group textarea, .contact .form-group textarea {
+    height: 100px; }
+  /* line 518, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .form .form-group ::placeholder, .contact .form-group ::placeholder {
+    color: #333;
+    font-weight: 500; }
+  /* line 523, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .form button, .contact button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 110px;
+    padding: 5px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500; }
+  @media screen and (max-width: 600px) {
+    /* line 496, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .form, .contact {
+      padding: 60px 35px !important;
+      text-align: left; }
+      /* line 536, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .form h2, .contact h2 {
+        font-size: 22px; }
+      /* line 539, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .form h2:after, .contact h2:after {
+        width: 15%; } }
+
+/* line 546, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.section2, .section22 {
+  background: transparent;
+  height: 500px; }
+  /* line 550, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .section2 nav, .section22 nav, .section1 nav .section2 .container-fluid, .section1 nav .section22 .container-fluid, .section2 nav .container-fluid, .section22 nav .container-fluid {
+    background-color: transparent !important;
+    box-shadow: none; }
+    /* line 555, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 nav .container-fluid .navbar_contain, .section22 nav .container-fluid .navbar_contain, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain {
+      width: 55px;
+      display: none;
+      height: 50px;
+      float: right;
+      margin-top: -42px;
+      cursor: pointer; }
+      /* line 562, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section2 nav .container-fluid .navbar_contain .navbar_1, .section22 nav .container-fluid .navbar_contain .navbar_1, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_1, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_1, .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 nav .container-fluid .navbar_contain .navbar_2, .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 nav .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3 {
+        width: 25px;
+        height: 2px;
+        margin: auto;
+        background-color: #000 !important; }
+      /* line 568, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section2 nav .container-fluid .navbar_contain .navbar_2, .section22 nav .container-fluid .navbar_contain .navbar_2, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_2, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_2, .section2 nav .container-fluid .navbar_contain .navbar_3, .section22 nav .container-fluid .navbar_contain .navbar_3, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain .navbar_3, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain .navbar_3 {
+        margin-top: 5px; }
+    /* line 577, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 nav .container-fluid .col-sm-3, .section22 nav .container-fluid .col-sm-3, .section1 nav .section2 .container-fluid .container-fluid .col-sm-3, .section1 nav .section22 .container-fluid .container-fluid .col-sm-3 {
+      padding-left: 0; }
+    /* line 582, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 nav .container-fluid ul li a, .section22 nav .container-fluid ul li a, .section1 nav .section2 .container-fluid .container-fluid ul li a, .section1 nav .section22 .container-fluid .container-fluid ul li a {
+      color: #000; }
+    /* line 585, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 nav .container-fluid ul li button, .section22 nav .container-fluid ul li button, .section1 nav .section2 .container-fluid .container-fluid ul li button, .section1 nav .section22 .container-fluid .container-fluid ul li button {
+      background-color: transparent;
+      color: #000;
+      transition: .2s ease-in-out;
+      border: 1px solid #20419b; }
+    /* line 591, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 nav .container-fluid ul li button:hover, .section22 nav .container-fluid ul li button:hover, .section1 nav .section2 .container-fluid .container-fluid ul li button:hover, .section1 nav .section22 .container-fluid .container-fluid ul li button:hover {
+      background: #20419b;
+      border: 2px solid #fff;
+      color: #fff; }
+  /* line 602, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .section2 .caption, .section22 .caption {
+    padding: 60px 0; }
+    /* line 607, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 .caption .card .card-content .card-title, .section22 .caption .card .card-content .card-title {
+      color: #20419b;
+      font-weight: 700;
+      font-size: 25px; }
+    /* line 612, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2 .caption .card .card-content p, .section22 .caption .card .card-content p {
+      color: #000; }
+  @media screen and (max-width: 600px) {
+    /* line 546, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .section2, .section22 {
+      padding: 0 20px;
+      height: 400px; }
+      /* line 623, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section2 nav, .section22 nav, .section1 nav .section2 .container-fluid, .section1 nav .section22 .container-fluid, .section2 nav .container-fluid, .section22 nav .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px; }
+        /* line 627, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section2 nav .container-fluid .navbar_contain, .section22 nav .container-fluid .navbar_contain, .section1 nav .section2 .container-fluid .container-fluid .navbar_contain, .section1 nav .section22 .container-fluid .container-fluid .navbar_contain {
+          display: block; }
+      /* line 635, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section2 .row .col-sm-3, .section22 .row .col-sm-3, .section2 .row .col-sm-6, .section22 .row .col-sm-6 {
+        padding: 0 0; }
+      /* line 639, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .section2 .caption, .section22 .caption {
+        padding: 20px 0 20px 20px; }
+        /* line 643, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .section2 .caption .card .card-content .card-title, .section22 .caption .card .card-content .card-title {
+          padding-right: 20px;
+          font-size: 20px;
+          font-weight: 800; } }
+
+/* line 654, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.services2, .industry {
+  margin-top: 50px; }
+  /* line 657, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services2 .container-fluid, .industry .container-fluid {
+    padding: 0; }
+    /* line 659, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services2 .container-fluid .row, .industry .container-fluid .row {
+      padding: 0;
+      margin: 0 !important; }
+      /* line 662, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .services2 .container-fluid .row .card, .industry .container-fluid .row .card {
+        border: none;
+        background-color: transparent; }
+        /* line 665, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .services2 .container-fluid .row .card img, .industry .container-fluid .row .card img {
+          width: 150px;
+          height: 150px;
+          margin: auto; }
+        /* line 670, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .services2 .container-fluid .row .card img:hover, .industry .container-fluid .row .card img:hover {
+          animation: scale 1s ease-in-out; }
+
+@keyframes scale {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(1.1); } }
+        /* line 681, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .services2 .container-fluid .row .card .card-title, .industry .container-fluid .row .card .card-title {
+          font-size: 15px;
+          font-weight: 500;
+          color: #333;
+          text-align: center; }
+  /* line 690, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .services2 a, .industry a {
+    margin: auto; }
+  @media screen and (max-width: 600px) {
+    /* line 654, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .services2, .industry {
+      padding: 0 20px; }
+      /* line 698, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .services2 .container-fluid .row .card img, .industry .container-fluid .row .card img {
+        height: 110px;
+        width: 110px; }
+      /* line 702, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .services2 .container-fluid .row .card .card-title, .industry .container-fluid .row .card .card-title {
+        font-size: 13px; } }
+
+/* line 712, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.industry {
+  background-color: #fafafa;
+  padding-top: 40px; }
+
+/* line 718, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.section22 {
+  height: auto; }
+
+/* line 725, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.team {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+  /* line 729, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .team h2 {
+    color: #20419b;
+    margin-left: 3px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0; }
+  /* line 736, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .team h2:after {
+    height: 0;
+    width: 0; }
+  /* line 740, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .team .col-md-8 {
+    padding-left: 5px; }
+    /* line 742, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .team .col-md-8 .first, .team .col-md-8 .services .third, .services .team .col-md-8 .third, .team .col-md-8 .services2 .third, .services2 .team .col-md-8 .third, .team .col-md-8 .industry .third, .industry .team .col-md-8 .third, .team .col-md-8 .process .second, .process .team .col-md-8 .second, .team .col-md-8 .process .third, .process .team .col-md-8 .third, .team .col-md-8 .fourth, .team .col-md-8 .last {
+      padding-left: 0; }
+  /* line 746, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .team .container-fluid {
+    padding: 0; }
+    /* line 748, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .team .container-fluid .row {
+      padding: 0;
+      margin: 0 !important; }
+      /* line 751, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .team .container-fluid .row .col-md-4 {
+        margin-top: 10px; }
+        /* line 753, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 .card-body {
+          padding: 0;
+          width: 180px; }
+        /* line 758, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 h3 {
+          font-weight: 800;
+          font-size: 15px;
+          padding: 0;
+          margin: 30px 0 0 0; }
+        /* line 765, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 p {
+          font-size: 14px;
+          font-weight: 100;
+          padding: 0;
+          margin-top: 5px !important; }
+        /* line 771, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 img {
+          border: 4px solid #20419b;
+          height: 180px;
+          width: 180px;
+          margin: 30px 0 0px 0; }
+        /* line 777, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 .last {
+          border: none; }
+  @media screen and (max-width: 600px) {
+    /* line 725, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .team {
+      padding: 0 20px; }
+      /* line 785, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .team .container-fluid {
+        margin-bottom: 40px; }
+        /* line 787, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid h2 {
+          margin-bottom: 30px; }
+        /* line 791, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .team .container-fluid .row .col-md-4 {
+          margin-top: 10px; }
+          /* line 796, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .team .container-fluid .row .col-md-4 h3 {
+            margin: 10px 0 0 0; }
+          /* line 799, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .team .container-fluid .row .col-md-4 p {
+            font-size: 14px;
+            font-weight: 100;
+            padding: 0;
+            margin-top: 5px !important; }
+          /* line 805, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .team .container-fluid .row .col-md-4 img {
+            border: 4px solid #20419b;
+            height: 120px;
+            width: 120px;
+            margin: 0; }
+          /* line 811, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+          .team .container-fluid .row .col-md-4 .card-body {
+            width: 120px; } }
+
+/* line 821, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.contact {
+  padding: 40px 0 0 0;
+  background-color: transparent; }
+  /* line 825, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .contact form {
+    margin-bottom: 50px; }
+    /* line 828, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .contact form .row h2 {
+      color: #20419b;
+      font-weight: 700;
+      text-align: left; }
+    /* line 834, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .contact form .row .form-group .form-control {
+      background-color: #f0f0f0 !important;
+      border: none; }
+    /* line 839, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .contact form .row button {
+      background-color: #20419b;
+      width: 120px;
+      padding: 5px;
+      height: 40px;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 500; }
+  @media screen and (max-width: 600px) {
+    /* line 821, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .contact {
+      padding: 0 40px; }
+      /* line 853, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .contact h2 {
+        margin-bottom: 10px; } }
+
+/* line 861, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.office .row .col-md-6 h1 {
+  font-size: 25px;
+  font-weight: 700; }
+
+/* line 865, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.office .row .col-md-6 p {
+  font-weight: 500;
+  font-size: 15px; }
+
+@media screen and (max-width: 600px) {
+  /* line 858, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .office {
+    padding: 0 50px !important; } }
+
+/* line 877, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.carousel-item {
+  height: 600px !important;
+  padding-bottom: 70px;
+  min-height: 350px; }
+
+/* line 883, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+header {
+  margin-top: 40px; }
+  /* line 885, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header h1 {
+    color: #20419b;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 40px; }
+  /* line 892, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .carousel-item .col-lg-3 {
+    float: left; }
+  /* line 896, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .carousel-item img {
+    height: 200px;
+    width: 200px; }
+  /* line 901, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .col-lg-8 {
+    float: right; }
+    /* line 904, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .col-lg-8 h2 {
+      margin-bottom: 30px;
+      font-weight: 500; }
+    /* line 908, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .col-lg-8 p {
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.8em; }
+    /* line 913, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .col-lg-8 img {
+      width: 500px;
+      height: 82px;
+      margin-top: 60px; }
+  /* line 920, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .note img {
+    height: 230px; }
+  /* line 925, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .carousel-control-prev .carousel-control-prev-icon {
+    height: 200px;
+    margin-top: 500px; }
+  /* line 931, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  header .carousel-control-next .carousel-control-next-icon {
+    height: 200px;
+    margin-top: 500px; }
+  @media screen and (max-width: 600px) {
+    /* line 938, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header h1 {
+      margin-left: 30px; }
+    /* line 941, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .slide {
+      margin: 0 !important; }
+    /* line 944, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .carousel-item {
+      padding: 0 0px 40px 35px;
+      height: auto !important; }
+      /* line 947, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      header .carousel-item .col-lg-3 {
+        float: left; }
+      /* line 951, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      header .carousel-item img {
+        height: 170px;
+        width: 170px; }
+    /* line 957, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .col-lg-8 {
+      margin-top: 30px; }
+      /* line 960, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      header .col-lg-8 h2 {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 20px; }
+      /* line 965, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      header .col-lg-8 p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.8em; }
+      /* line 970, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      header .col-lg-8 img {
+        width: 200px;
+        height: 32px;
+        margin-top: 20px; }
+    /* line 978, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .note img {
+      height: 90px; }
+    /* line 983, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .carousel-control-prev .carousel-control-prev-icon {
+      height: 100px;
+      padding-right: 5px;
+      margin-top: 500px; }
+    /* line 990, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    header .carousel-control-next .carousel-control-next-icon {
+      height: 100px;
+      margin-top: 500px; } }
+
+/* line 1003, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.about_team .carousel-inner .carousel-item .col-lg-3 img {
+  border: 4px solid #20419b; }
+
+/* line 1006, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.about_team .carousel-inner .carousel-item .col-lg-3 h2 {
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 30px; }
+
+/* line 1011, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.about_team .carousel-inner .carousel-item .col-lg-3 h5 {
+  font-weight: 100;
+  font-size: 17px; }
+
+/* line 1020, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.about_team .carousel-inner .carousel-item .col-md-8 ul li {
+  font-size: 12px !important;
+  margin-top: 5px; }
+
+@media screen and (max-width: 600px) {
+  /* line 999, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .about_team {
+    padding: 0 20px; }
+    /* line 1031, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .about_team h1 {
+      margin-left: 8px; }
+    /* line 1035, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .about_team .carousel-inner .carousel-item {
+      height: auto !important;
+      padding: 0 0 40px 10px; }
+      /* line 1038, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .about_team .carousel-inner .carousel-item .col-md-8 {
+        padding-right: 0; }
+        /* line 1040, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+        .about_team .carousel-inner .carousel-item .col-md-8 p {
+          font-size: 12px;
+          padding: 0;
+          margin: 0; } }
+
+/* line 1054, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+.process {
+  padding: 0 0 70px 0 !important; }
+  /* line 1056, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process h2 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px; }
+  /* line 1061, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .row {
+    margin: 0 0 !important; }
+  /* line 1064, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process h2:after {
+    height: 1px;
+    width: 7%;
+    margin: 17px auto 0 auto;
+    content: "";
+    display: block;
+    background-color: #000; }
+  /* line 1073, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .first .one, .process .second .one, .process .third .one {
+    margin-top: 100px; }
+  /* line 1077, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .first img, .process .second img, .process .third img {
+    width: 221px;
+    height: 411px; }
+  /* line 1083, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .first .card-content .card-title, .process .second .card-content .card-title, .process .third .card-content .card-title {
+    color: #20419b;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1em;
+    padding-left: 9px;
+    border-left: 9px solid #20419b; }
+  /* line 1091, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .first .card-content p, .process .second .card-content p, .process .third .card-content p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 15px; }
+  /* line 1100, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .second {
+    margin: 0;
+    padding: 0 0; }
+    /* line 1103, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .process .second img {
+      width: 220px;
+      height: 700px; }
+    /* line 1111, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .process .second .card-content .card-title {
+      font-weight: 800;
+      color: #f7941d;
+      border-left: 9px solid #f7941d; }
+  /* line 1118, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  .process .third {
+    margin: 0; }
+    /* line 1121, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .process .third img {
+      width: 231px;
+      height: 550px; }
+    /* line 1126, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .process .third .card-content {
+      padding-right: 30px; }
+      /* line 1128, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .third .card-content .card-title {
+        font-weight: 800;
+        color: #ec008c;
+        border-left: 10px solid #ec008c; }
+  @media screen and (max-width: 600px) {
+    /* line 1054, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    .process {
+      margin-bottom: 50px; }
+      /* line 1137, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process h2 {
+        font-size: 25px; }
+      /* line 1140, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .one, .process .stag {
+        display: none; }
+      /* line 1143, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process h2:after {
+        width: 15%; }
+      /* line 1147, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .first img, .process .second img, .process .third img {
+        width: 221px;
+        height: 441px; }
+      /* line 1154, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .second img {
+        width: 221px;
+        height: 750px; }
+      /* line 1161, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .third img {
+        width: 221px;
+        height: 558px; }
+      /* line 1167, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      .process .card-content {
+        margin-top: 30px; } }
+
+/* line 1176, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+footer {
+  background-color: #fff;
+  width: 100%;
+  height: 40px; }
+  /* line 1180, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  footer .row {
+    margin: 0; }
+  /* line 1183, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+  footer p {
+    margin-top: 20px;
+    font-size: 13px; }
+    /* line 1186, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    footer p span {
+      font-weight: 700; }
+  @media screen and (max-width: 600px) {
+    /* line 1176, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+    footer {
+      padding: 0 20px !important; }
+      /* line 1192, ../../Users/omole grace/Documents/projects/schullTech/assets/style.scss */
+      footer .col-md-8 {
+        padding: 0 20px; } }
+
+/*# sourceMappingURL=style.css.map */
